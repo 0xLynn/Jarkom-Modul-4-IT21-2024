@@ -446,8 +446,6 @@ netmask 255.255.248.0
 gateway 10.74.8.1 
 ```
 
-### LANJUTKAN
-
 # CIDR - CPT
 ## Penggabungan Subnet
 
