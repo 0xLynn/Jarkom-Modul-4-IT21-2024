@@ -447,32 +447,33 @@ gateway 10.74.8.1
 ```
 
 # CIDR - CPT
-## Penggabungan Subnet
+## Route
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/e09c7e22-b058-4dcc-88d9-4a0f6ace496e)
 
+## Penggabungan Subnet
 ### Subnet A
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/a9992b05-2a42-4354-a4b0-dbee960f48dd)
 
 ### Subnet B
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/bb7fa4f5-8fe6-4968-8ea6-9f00b48b0e25)
 
 ### Subnet C
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/8b19a9a8-2c88-4829-9bac-3d032198538f)
 
 ### Subnet D
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/a07662be-5b3a-46b0-b9aa-e6390593cbad)
 
 ### Subnet E
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/7bc05aeb-ee09-4746-a3b1-6b56a0752a6f)
 
 ### Subnet F
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/a0ee3822-cd59-4410-b91a-1cba750e00f9)
 
 ### Subnet G
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/87baeb66-a93c-425d-b30a-cbb898229ee3)
 
 ### Subnet H
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/0a635b70-4a10-493e-ac9d-aa167e33edfb)
 
 ## Tree
-
-## Pembagian IP
-
-## Konfigurasi Network
-
-### Jawa
-
-### Sulawesi
-
-### LANJUTKAN
+![image](https://github.com/0xLynn/Jarkom-Modul-4-IT21-2024/assets/117902615/35ac9b1e-f851-44bf-9471-b0a773e8dbaf)
