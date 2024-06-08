@@ -17,19 +17,16 @@ iface lo inet loopback
 auto eth0
 iface eth0 inet dhcp
 
-#A15
 auto eth1
 iface eth1 inet static
 address 10.74.21.197 
 netmask 255.255.255.252
 
-#A7
 auto eth2
 iface eth2 inet static
 address 10.74.21.181
 netmask 255.255.255.252
 
-#A6
 auto eth3
 iface eth3 inet static
 address 10.74.21.177
@@ -444,6 +441,97 @@ iface eth0 inet static
 address 10.74.8.4
 netmask 255.255.248.0
 gateway 10.74.8.1 
+```
+
+## Routing
+- MALUKU-UTARA
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.20.129 
+```
+- MAKASAR
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.21.161  
+```
+- BELAWA
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.21.161
+```
+- SULAWESI
+```
+route add -net 10.74.8.0 netmask 255.255.248.0 gw 10.74.20.130
+route add -net 10.74.21.168 netmask 255.255.255.248 gw 10.74.21.163
+route add -net 10.74.21.0 netmask 255.255.255.192 gw 10.74.21.162 
+```
+- KALIMANTAN-SELATAN
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.21.193  
+```
+- KALIMANTAN-TIMUR
+```
+route add -net 10.74.21.96 netmask 255.255.255.224 gw 10.74.21.194
+route add -net 10.74.0.0  netmask 255.255.248.0 gw 10.74.21.194
+```
+- KALIMANTAN-UTARA
+```
+route add -net 10.74.16.0 netmask 255.255.254.0 gw 10.74.21.190
+route add -net 10.74.21.192 netmask 255.255.255.252 gw 10.74.21.190
+route add -net 10.74.21.96 netmask 255.255.255.224 gw 10.74.21.190
+route add -net 10.74.0.0  netmask 255.255.248.0 gw 10.74.21.190
+```
+- KALIMANTAN
+```
+route add -net 10.74.21.188 netmask 255.255.255.252 gw 10.74.21.186
+route add -net 10.74.18.0 netmask 255.255.255.0 gw 10.74.21.186
+route add -net 10.74.16.0 netmask 255.255.254.0 gw 10.74.21.186
+route add -net 10.74.21.192 netmask 255.255.255.252 gw 10.74.21.186
+route add -net 10.74.21.96 netmask 255.255.255.224 gw 10.74.21.186
+route add -net 10.74.0.0  netmask 255.255.248.0 gw 10.74.21.186
+```
+- ACEH
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.21.205  
+```
+- LAMPUNG
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.74.21.65 
+```
+- SUMATERA-UTARA
+```
+route add -net 10.74.20.0 netmask 255.255.255.128 gw 10.74.21.206
+route add -net 10.74.21.128 netmask 255.255.255.224 gw 10.74.21.206
+```
+- SUMATERA
+```
+route add -net 10.74.20.0 netmask 255.255.255.128 gw 10.74.21.66
+route add -net 10.74.21.128 netmask 255.255.255.224 gw 10.74.21.66
+route add -net 10.74.21.204 netmask 255.255.255.252 gw 10.74.21.66
+route add -net 10.74.19.0 netmask 255.255.255.0 gw 10.74.21.202
+```
+- JAWA
+```
+##SUMATERA
+route add -net 10.74.20.0 netmask 255.255.255.128 gw 10.74.21.198
+route add -net 10.74.21.128 netmask 255.255.255.224 gw 10.74.21.198
+route add -net 10.74.21.204 netmask 255.255.255.252 gw 10.74.21.198
+route add -net 10.74.19.0 netmask 255.255.255.0 gw 10.74.21.198
+route add -net 10.74.21.200 netmask 255.255.255.252 gw 10.74.21.198
+route add -net 10.74.21.64 netmask 255.255.255.224 gw 10.74.21.198
+
+##KALIMANTAN
+route add -net 10.74.21.184 netmask 255.255.255.252 gw 10.74.21.182
+route add -net 10.74.21.188 netmask 255.255.255.252 gw 10.74.21.182
+route add -net 10.74.18.0 netmask 255.255.255.0 gw 10.74.21.182
+route add -net 10.74.16.0 netmask 255.255.254.0 gw 10.74.21.182
+route add -net 10.74.21.192 netmask 255.255.255.252 gw 10.74.21.182
+route add -net 10.74.21.96 netmask 255.255.255.224 gw 10.74.21.182
+route add -net 10.74.0.0  netmask 255.255.248.0 gw 10.74.21.182
+
+##SULAWESI
+route add -net 10.74.8.0 netmask 255.255.248.0 gw 10.74.21.178
+route add -net 10.74.20.128 netmask 255.255.255.128 gw 10.74.21.178
+route add -net 10.74.21.168 netmask 255.255.255.248 gw 10.74.21.178
+route add -net 10.74.21.168 netmask 255.255.255.248 gw 10.74.21.178
+route add -net 10.74.21.0 netmask 255.255.255.192 gw 10.74.21.178
 ```
 
 # CIDR - CPT
