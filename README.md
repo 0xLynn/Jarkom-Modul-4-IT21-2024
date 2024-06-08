@@ -179,7 +179,11 @@ gateway 10.74.21.129
 
 ### Lambaro
 ```
-
+auto eth0
+iface eth0 inet static
+address 10.74.21.131
+netmask 255.255.255.224
+gateway 10.74.21.129 
 ```
 
 ### Sebuku
